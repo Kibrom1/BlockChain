@@ -1,4 +1,4 @@
-package BlockChain.basicBlockChain;
+package BlockChain;
 
 /**
  * Hello world!
