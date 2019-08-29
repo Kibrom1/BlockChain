@@ -5,12 +5,13 @@ import java.util.ArrayList;
 import com.google.gson.GsonBuilder;
 
 /**
- * Hello world!
+ * This is a basic blockchain implementation
+ * The blockchain contains self hash, data, previous block hash and timestamp
  *
  */
 public class App {
 	public static ArrayList<Block> blockchain = new ArrayList<Block>();
-	public static int difficulty = 5;
+	public static int difficulty = 0;
 
 	public static void main(String[] args) {
 		blockchain.add(new Block("Hi im the first block", "0"));
